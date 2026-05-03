@@ -1,0 +1,38 @@
+# Old URL structure → new clean URLs
+/tools/cursive.html /cursive-font-generator/ 301
+/tools/gothic.html /gothic-font-generator/ 301
+/tools/bold.html /bold-text-generator/ 301
+/tools/glitch.html /glitch-text-generator/ 301
+/tools/small-caps.html /small-caps-generator/ 301
+/tools/upside-down.html /upside-down-text-generator/ 301
+/tools/mirror.html /mirror-text-generator/ 301
+/tools/strikethrough.html /strikethrough-text-generator/ 301
+/tools/instagram.html /instagram-font-generator/ 301
+/tools/discord.html /discord-font-generator/ 301
+/tools/tiktok.html /tiktok-font-generator/ 301
+/tools/twitter.html /twitter-font-generator/ 301
+/tools/facebook.html /facebook-font-generator/ 301
+/tools/youtube.html /youtube-font-generator/ 301
+/about.html /about/ 301
+/contact.html /contact/ 301
+/privacy.html /privacy/ 301
+/terms.html /terms/ 301
+/cursive-font-generator /cursive-font-generator/ 301
+/gothic-font-generator /gothic-font-generator/ 301
+/bold-text-generator /bold-text-generator/ 301
+/glitch-text-generator /glitch-text-generator/ 301
+/bubble-text-generator /bubble-text-generator/ 301
+/zalgo-text-generator /zalgo-text-generator/ 301
+/small-caps-generator /small-caps-generator/ 301
+/upside-down-text-generator /upside-down-text-generator/ 301
+/mirror-text-generator /mirror-text-generator/ 301
+/strikethrough-text-generator /strikethrough-text-generator/ 301
+/instagram-font-generator /instagram-font-generator/ 301
+/discord-font-generator /discord-font-generator/ 301
+/tiktok-font-generator /tiktok-font-generator/ 301
+/twitter-font-generator /twitter-font-generator/ 301
+/facebook-font-generator /facebook-font-generator/ 301
+/youtube-font-generator /youtube-font-generator/ 301
+
+# Blog
+/blog /blog/ 301

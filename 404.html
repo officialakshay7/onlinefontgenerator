@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found – OnlineFontGenerator.org</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@400;700&family=Lora:ital,wght@1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text y='.85em' font-size='72' font-family='serif' font-style='italic' fill='white' x='12'>F</text></svg>">
+  <style>
+    .not-found {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 24px;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .nf-code {
+      font-family: 'Lora', serif;
+      font-style: italic;
+      font-size: clamp(5rem, 15vw, 10rem);
+      font-weight: 400;
+      color: var(--border-2);
+      line-height: 1;
+    }
+    .nf-title {
+      font-family: 'Google Sans Display', sans-serif;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 700;
+      letter-spacing: -.02em;
+    }
+    .nf-sub {
+      color: var(--text-2);
+      font-size: .95rem;
+      max-width: 380px;
+      line-height: 1.65;
+    }
+    .nf-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 28px;
+      background: var(--accent);
+      color: #fff;
+      border-radius: var(--r-pill);
+      font-weight: 700;
+      font-size: .9rem;
+      transition: opacity .2s;
+    }
+    .nf-btn:hover { opacity: .85; }
+    .nf-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 8px;
+    }
+    .nf-link {
+      padding: 7px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--r-pill);
+      font-size: .82rem;
+      color: var(--text-2);
+      transition: all .18s;
+    }
+    .nf-link:hover { border-color: var(--accent); color: var(--accent); }
+  </style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <nav class="nav container">
+    <a href="/" class="logo">
+      <span class="logo-mark">F</span>
+      <span>FontGenerator</span>
+    </a>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle theme"><span class="theme-icon">☾</span></button>
+    </div>
+  
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/" class="nav-link">Generator</a></li>
+      <li><a href="/blog/" class="nav-link">Blog</a></li>
+    </ul></nav>
+</header>
+
+<main>
+  <div class="not-found">
+    <div class="nf-code">404</div>
+    <h1 class="nf-title">Page not found</h1>
+    <p class="nf-sub">The page you're looking for doesn't exist or may have moved. Try the generator or one of our popular tools below.</p>
+    <a href="/" class="nf-btn">← Back to Font Generator</a>
+    <div class="nf-links">
+      <a href="/cursive-font-generator/" class="nf-link">𝒞ursive</a>
+      <a href="/gothic-font-generator/" class="nf-link">𝔊othic</a>
+      <a href="/bold-text-generator/" class="nf-link">𝐁old</a>
+      <a href="/glitch-text-generator/" class="nf-link">G̷litch</a>
+      <a href="/bubble-text-generator/" class="nf-link">Ⓑubble</a>
+      <a href="/instagram-font-generator/" class="nf-link">Instagram</a>
+      <a href="/discord-font-generator/" class="nf-link">Discord</a>
+    </div>
+  </div>
+</main>
+
+<script src="/js/fonts.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
