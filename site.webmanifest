@@ -1,0 +1,62 @@
+{
+  "name": "Online Font Generator",
+  "short_name": "FontGenerator",
+  "description": "Generate 200+ fancy Unicode font styles. Free, instant, no login.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ECF0F8",
+  "theme_color": "#6448f0",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.svg",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.svg",
+      "sizes": "1200x630",
+      "type": "image/svg+xml",
+      "form_factor": "wide",
+      "label": "Font Generator homepage"
+    }
+  ],
+  "categories": [
+    "utilities",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Cursive Fonts",
+      "short_name": "Cursive",
+      "url": "/cursive-font-generator/",
+      "description": "Generate cursive font styles"
+    },
+    {
+      "name": "Gothic Fonts",
+      "short_name": "Gothic",
+      "url": "/gothic-font-generator/",
+      "description": "Generate gothic font styles"
+    },
+    {
+      "name": "Glitch Text",
+      "short_name": "Glitch",
+      "url": "/glitch-text-generator/",
+      "description": "Generate glitch text effects"
+    },
+    {
+      "name": "Instagram Fonts",
+      "short_name": "Instagram",
+      "url": "/instagram-font-generator/",
+      "description": "Fonts for Instagram bios"
+    }
+  ]
+}

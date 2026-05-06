@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Display:wght@400;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text y='.85em' font-size='72' font-family='serif' font-style='italic' fill='white' x='12'>F</text></svg>">
   <style>.legal { max-width:720px;margin:0 auto; } .legal h2 { font-size:1.2rem;font-weight:700;margin:28px 0 10px; } .legal p,.legal li { color:var(--text-2);line-height:1.75;margin-bottom:12px;font-size:.93rem; } .legal ul { padding-left:20px; } .contact-form {max-width:600px;margin:0 auto;} .form-group {margin-bottom:18px;} .form-group label {display:block;font-weight:600;font-size:.85rem;margin-bottom:6px;color:var(--text-2);} .form-group input,.form-group textarea,.form-group select {width:100%;padding:11px 14px;background:var(--bg-2);border:1.5px solid var(--border);border-radius:var(--r-md);color:var(--text);font-family:inherit;font-size:.93rem;outline:none;transition:border-color .2s;} .form-group input:focus,.form-group textarea:focus {border-color:var(--accent);} .form-group textarea {min-height:110px;resize:vertical;} .submit-btn {display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:var(--accent);color:#fff;border-radius:var(--r-pill);font-weight:700;font-size:.9rem;cursor:pointer;border:none;font-family:inherit;transition:opacity .2s;} .submit-btn:hover{opacity:.85;}</style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://onlinefontgenerator.org/"},{"@type":"ListItem","position":2,"name":"About Us","item":"https://onlinefontgenerator.org/about/"}]}
@@ -17,6 +16,19 @@
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"WebPage","name":"About Us — OnlineFontGenerator.org","url":"https://onlinefontgenerator.org/about/","isPartOf":{"@type":"WebSite","url":"https://onlinefontgenerator.org"},"inLanguage":"en"}
   </script>
+  <!-- Favicon & PWA -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.svg" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#6448f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#7c6af7" media="(prefers-color-scheme: dark)">
+  <meta name="msapplication-TileColor" content="#6448f0">
+  <meta name="application-name" content="FontGenerator">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="FontGenerator">
 </head>
 <body>
 <header class="site-header" id="siteHeader">
@@ -89,4 +101,6 @@
 <div class="toast" id="toast"></div>
 <footer class="site-footer"><div class="container"><div class="footer-bottom"><p>© 2026 OnlineFontGenerator.org — <a href="/" style="color:var(--accent)">Back to Generator</a></p></div></div></footer>
 <script src="/js/fonts.js"></script><script src="/js/main.js"></script>
+
+<button class="go-top" id="goTop" aria-label="Back to top" title="Scroll to top">↑</button>
 </body></html>
