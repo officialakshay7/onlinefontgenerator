@@ -1,3 +1,9 @@
+# NOTE: www → root redirect CANNOT be handled by _redirects.
+# Cloudflare Pages _redirects only controls paths on the same hostname.
+# www.onlinefontgenerator.org → onlinefontgenerator.org must be configured
+# in Cloudflare Dashboard → your domain → Rules → Redirect Rules.
+# Full setup steps are in the deployment guide below.
+
 # Old URL structure → new clean URLs
 /tools/cursive.html /cursive-font-generator/ 301
 /tools/gothic.html /gothic-font-generator/ 301
